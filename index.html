@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src=theisledmgcalc.js></script>
+  
+  
+
+  <style type="text/css">
+   html, body {width: 100%; height: 100%; margin: 0px, padding: 0px;}
+
+button{display: block;}
+   /* Isto é a class que diz à "div" que contem as cenas para o dino1 e dino2 para ocupar 50% do ecrã*/
+   .dino-select-container {width: 200px; position: relative; float: left;}
+ </style>
+
+</head>
+
+<body>
+
+
+
+
+  <!-- AQUI ABRE A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
+  <div class="dino-select-container">
+    First Dino: <br>
+    Carnivores: <br>
+    <button id="carnotaurusBtn1">Carnotaurus</button>
+    <button id="dilophosaurusBtn1">Dilophosaurus</button>
+    <button id="utahraptorBtn1">Utahraptor</button>
+    <button id="allosaurusBtn1">Allosaurus</button>
+    <button id="ceratosaurusBtn1">Ceratosaurus</button>
+    <button id="suchomimusBtn1">Suchomimus</button>
+    <button id="giganotosaurusBtn1">Giganotosaurus</button>
+    <button id="tyrannosaurusBtn1">Tyrannosaurus</button>
+    <br>
+    Herbivores: <br>
+    <button id="dryosaurusBtn1">Dryosaurus</button>
+    <button id="gallimimusBtn1">Gallimimus</button>
+    <button id="pachycephalosaurusBtn1">Pachycephalosaurus</button>
+    <button id="diabloceratopsBtn1">Diabloceratops</button>
+    <button id="maiasauraBtn1">Maiasaura</button>
+    <button id="parasaurolophusBtn1">Parasaurolophus</button>
+    <button id="triceratopsBtn1">Triceratops</button>
+    <br>
+    First Dino Growth: <br>
+    <button id="freshJuvieBtn1">Fresh Juvenile</button>
+    <button id="midJuvieBtn1">Mid Juvenile</button>
+    <button id="fullJuvieBtn1">Full Juvenile</button>
+    <button id="freshSubBtn1">Fresh Sub-Adult</button>
+    <button id="midSubBtn1">Mid Sub-Adult</button>
+    <button id="fullSubBtn1">Full Sub-Adult</button>
+    <button id="freshAdultBtn1">Fresh Adult</button>
+    <button id="midAdultBtn1">Mid Adult</button>
+    <button id="fullAdultBtn1">Full Adult</button>
+    <br>
+    Customize: <br>
+    Weight: <br>
+    <input id="customWeight1" type="text" placeholder="Weight"><br>
+    Health: <br>
+    <input id="customHealth1" type="text" placeholder="Health"><br>
+    Bite Force: <br>
+    <input id="customDamage1" type="text" placeholder="Bite Force"><br>
+    Bleed: <br>
+    <input id="customBleed1" type="text" placeholder="Bleed"><br>
+    <button id="customBtn1">Use These Values</button><br>
+    <br>
+    <br>
+
+    <!-- AQUI FECHA A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
+  </div>
+
+  <!-- AQUI ABRE A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
+  <div class="dino-select-container">
+    Second Dino: <br>
+    Carnivores: <br>
+    <button id="carnotaurusBtn2">Carnotaurus</button>
+    <button id="dilophosaurusBtn2">Dilophosaurus</button>
+    <button id="utahraptorBtn2">Utahraptor</button>
+    <button id="allosaurusBtn2">Allosaurus</button>
+    <button id="ceratosaurusBtn2">Ceratosaurus</button>
+    <button id="suchomimusBtn2">Suchomimus</button>
+    <button id="giganotosaurusBtn2">Giganotosaurus</button>
+    <button id="tyrannosaurusBtn2">Tyrannosaurus</button>
+    <br>
+    Herbivores: <br>
+    <button id="dryosaurusBtn2">Dryosaurus</button>
+    <button id="gallimimusBtn2">Gallimimus</button>
+    <button id="pachycephalosaurusBtn2">Pachycephalosaurus</button>
+    <button id="diabloceratopsBtn2">Diabloceratops</button>
+    <button id="maiasauraBtn2">Maiasaura</button>
+    <button id="parasaurolophusBtn2">Parasaurolophus</button>
+    <button id="triceratopsBtn2">Triceratops</button>
+    <br>
+    Second Dino Growth: <br>
+    <button id="freshJuvieBtn2">Fresh Juvenile</button>
+    <button id="midJuvieBtn2">Mid Juvenile</button>
+    <button id="fullJuvieBtn2">Full Juvenile</button>
+    <button id="freshSubBtn2">Fresh Sub-Adult</button>
+    <button id="midSubBtn2">Mid Sub-Adult</button>
+    <button id="fullSubBtn2">Full Sub-Adult</button>
+    <button id="freshAdultBtn2">Fresh Adult</button>
+    <button id="midAdultBtn2">Mid Adult</button>
+    <button id="fullAdultBtn2">Full Adult</button>
+    <br>
+    Customize: <br>
+
+    Weight: <br>
+    <input id="customWeight2" type="text" placeholder="Weight"><br>
+    Health: <br>
+    <input id="customHealth2" type="text" placeholder="Health"><br>
+    Bite Force: <br>
+    <input id="customDamage2" type="text" placeholder="Bite Force"><br>
+    Bleed: <br>
+    <input id="customBleed2" type="text" placeholder="Bleed"><br>
+    <button id="customBtn2">Use These Values</button>
+
+    <!-- AQUI FECHA A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
+  </div>
+  <div class="dino-fight-outcome">
+    Chosen Dinos: <br>
+    <br>
+    <span id="dino1web"></span> <span id="growth1web"></span>  VS <span id="dino2web"></span> <span id="growth2web"></span><br>
+    <br>
+    <button id="calculateBtn">Calculate</button><button value="Refresh Page" onClick="window.location.reload(true)">Reset</button><br>
+    <br>
+    <p id="linha1"></p>
+    <p id="linha2"></p>
+    <p id="linha3"></p>
+    <p id="linha4"></p>
+    <p id="special1"></p>
+    <br>
+    <p id="linha5"></p>
+    <p id="linha6"></p>
+    <p id="linha7"></p>
+    <p id="linha8"></p>
+    <p id="special2"></p>
+    <br>
+    <br>
+    <br>
+    NOTE WHEN USING CUSTOM VALUES:<br>
+    Weight and Bite force can be seen from the "Insert" menu in-game.<br>
+    For Health and bleed damage, I recommend you change or use a preset value closer to your current growth state or check this <a href="https://the-isle-dinosaur-game.fandom.com/wiki/Fauna">wiki</a>.<br>
+
+    <br>
+  </div>
+
+
+</body>
+
+</html>
