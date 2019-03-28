@@ -5,62 +5,100 @@ window.onload = function() {
 
 carnotaurus: {
   fullAdult: {
+    bleedStandResist: 70,
+    bleedSitResist: 20,
+    bleedWalkResist: 50,
+    bleedRunResist: 60,
     weight: 2170,
     health: 2170,
     damage: 200,
     bleed: 15,
   },
   midAdult: {
+    bleedStandResist: 70,
+    bleedSitResist: 20,
+    bleedWalkResist: 50,
+    bleedRunResist: 60,
     weight: findMidValues(880,2170),
     health: findMidValues(350,2170),
     damage: findMidValues(75,200),
     bleed: findMidValues(15,15),
   },
   freshAdult: {
+    bleedStandResist: 70,
+    bleedSitResist: 20,
+    bleedWalkResist: 50,
+    bleedRunResist: 60,
     weight: 880,
     health: 350,
     damage: 75,
     bleed: 15,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: 850,
     health: 350,
     damage: 75,
     bleed: 15,
   },
   midJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: findMidValues(150,850),
     health: findMidValues(120,350),
     damage: findMidValues(50,75),
     bleed: findMidValues(15,15),
   },
   freshJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: 150,
     health: 120,
     damage: 50,
     bleed: 15,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -69,62 +107,100 @@ carnotaurus: {
 },
 dilophosaurus: {
   fullAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: 1200,
     health: 1050,
     damage: 150,
     bleed: 50,
   },
   midAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: findMidValues(900,1200),
     health: findMidValues(650,1050),
     damage: findMidValues(75,150),
     bleed: findMidValues(50,50),
   },
   freshAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: 900,
     health: 650,
     damage: 75,
     bleed: 50,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 900,
     health: 650,
     damage: 70,
     bleed: 20,
   },
   midJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: findMidValues(150,900),
     health: findMidValues(250,650),
     damage: findMidValues(27,70),
     bleed: findMidValues(20,20),
   },
   freshJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 150,
     health: 250,
     damage: 27,
     bleed: 20,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -133,62 +209,100 @@ dilophosaurus: {
 },
 utahraptor: {
   fullAdult: {
+    bleedStandResist: 20,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 1000,
     health: 1200,
     damage: 200,
     bleed: 20,
   },
   midAdult: {
+    bleedStandResist: 20,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: findMidValues(250,1000),
     health: findMidValues(300,1200),
     damage: findMidValues(60,200),
     bleed: findMidValues(10,20),
   },
   freshAdult: {
+    bleedStandResist: 20,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 250,
     health: 300,
     damage: 60,
     bleed: 10,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 600,
     health: 100,
     damage: 40,
     bleed: 10,
   },
   midJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: findMidValues(60,600),
     health: findMidValues(25,100),
     damage: findMidValues(10,40),
     bleed: findMidValues(5,10),
   },
   freshJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 60,
     health: 25,
     damage: 10,
     bleed: 5,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -197,62 +311,100 @@ utahraptor: {
 },
 allosaurus: {
   fullAdult: {
+    bleedStandResist: 60,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 2800,
     health: 2800,
     damage: 300,
     bleed: 25,
   },
   midAdult: {
+    bleedStandResist: 60,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(1850,2800),
     health: findMidValues(1050,2800),
     damage: findMidValues(75,300),
     bleed: findMidValues(25,25),
   },
   freshAdult: {
+    bleedStandResist: 60,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 1850,
     health: 1050,
     damage: 75,
     bleed: 25,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 1800,
     health: 1100,
     damage: 100,
     bleed: 25,
   },
   midJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: findMidValues(300,1800),
     health: findMidValues(200,1100),
     damage: findMidValues(50,100),
     bleed: findMidValues(25,25),
   },
   freshJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 300,
     health: 200,
     damage: 50,
     bleed: 25,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -261,62 +413,100 @@ allosaurus: {
 },
 ceratosaurus: {
   fullAdult: {
+    bleedStandResist: 80,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 2250,
     health: 2250,
     damage: 350,
     bleed: 8,
   },
   midAdult: {
+    bleedStandResist: 80,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(1900,2250),
     health: findMidValues(1900,2250),
     damage: findMidValues(225,350),
     bleed: findMidValues(8,8),
   },
   freshAdult: {
+    bleedStandResist: 80,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 1900,
     health: 1900,
     damage: 225,
     bleed: 8,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 80,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 1900,
     health: 1900,
     damage: 140,
     bleed: 8,
   },
   midJuvie: {
+    bleedStandResist: 80,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(150,1900),
     health: findMidValues(150,1900),
     damage: findMidValues(60,140),
     bleed: findMidValues(8,8),
   },
   freshJuvie: {
+    bleedStandResist: 80,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 150,
     health: 150,
     damage: 60,
     bleed: 8,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -325,62 +515,100 @@ ceratosaurus: {
 },
 suchomimus: {
   fullAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 20,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 3600,
     health: 3600,
     damage: 350,
     bleed: 10,
   },
   midAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 20,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: findMidValues(2000,3600),
     health: findMidValues(1450,3600),
     damage: findMidValues(150,350),
     bleed: findMidValues(10,10),
   },
   freshAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 20,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 2000,
     health: 1450,
     damage: 150,
     bleed: 10,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 60,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 2000,
     health: 850,
     damage: 145,
     bleed: 5,
   },
   midJuvie: {
+    bleedStandResist: 60,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: findMidValues(450,2000),
     health: findMidValues(350,850),
     damage: findMidValues(25,145),
     bleed: findMidValues(5,5),
   },
   freshJuvie: {
+    bleedStandResist: 60,
+    bleedSitResist: 25,
+    bleedWalkResist: 80,
+    bleedRunResist: 100,
     weight: 450,
     health: 350,
     damage: 25,
     bleed: 5,
   },
   custom: {
+    bleedStandResist: 80,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -389,60 +617,100 @@ suchomimus: {
 },
 giganotosaurus: {
   fullAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 15,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: 6450,
     health: 6000,
     damage: 700,
     bleed: 50,
   },
   midAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 15,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: findMidValues(3550,6450),
     health: findMidValues(4000,6000),
     damage: findMidValues(480,700),
     bleed: findMidValues(10,50),
   },
   freshAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 15,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: 3550,
     health: 4000,
     damage: 480,
     bleed: 10,
   },
   fullSub: {
+    bleedStandResist: 30,
+    bleedSitResist: 15,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: 3200,
     health: 4000,
     damage: 455,
     bleed: 10,
   },
   midSub: {
+    bleedStandResist: 30,
+    bleedSitResist: 15,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: findMidValues(2200,3200),
     health: findMidValues(2000,4000),
     damage: findMidValues(150,455),
     bleed: findMidValues(5,10),
   },
   freshSub: {
+    bleedStandResist: 30,
+    bleedSitResist: 15,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: 2200,
     health: 2000,
     damage: 150,
     bleed: 5,
   },
   fullJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 70,
+    bleedRunResist: 100,
     weight: 2100,
     health: 2000,
     damage: 150,
     bleed: 5,
   },
   midJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 70,
+    bleedRunResist: 100,
     weight: findMidValues(500,2100),
     health: findMidValues(250,2000),
     damage: findMidValues(50,150),
     bleed: findMidValues(2,5),
   },
   freshJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 70,
+    bleedRunResist: 100,
     weight: 500,
     health: 250,
     damage: 50,
     bleed: 2,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -451,60 +719,100 @@ giganotosaurus: {
 },
 tyrannosaurus: {
   fullAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 5800,
     health: 6500,
     damage: 1200,
     bleed: 10,
   },
   midAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: findMidValues(3200,5800),
     health: findMidValues(4000,6500),
     damage: findMidValues(450,1200),
     bleed: findMidValues(10,10),
   },
   freshAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 3200,
     health: 4000,
     damage: 450,
     bleed: 10,
   },
   fullSub: {
+    bleedStandResist: 40,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 2875,
     health: 4000,
     damage: 450,
     bleed: 10,
   },
   midSub: {
+    bleedStandResist: 40,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: findMidValues(1450,2875),
     health: findMidValues(2000,4000),
     damage: findMidValues(100,450),
     bleed: findMidValues(5,10),
   },
   freshSub: {
+    bleedStandResist: 40,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 70,
     weight: 1450,
     health: 2000,
     damage: 100,
     bleed: 5,
   },
   fullJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 1400,
     health: 2000,
     damage: 100,
     bleed: 5,
   },
   midJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: findMidValues(200,1400),
     health: findMidValues(200,2000),
     damage: findMidValues(50,100),
     bleed: findMidValues(2,5),
   },
   freshJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 200,
     health: 200,
     damage: 50,
     bleed: 2,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 0,
     health: 0,
     damage: 0,
@@ -516,62 +824,100 @@ tyrannosaurus: {
 
 dryosaurus: {
   fullAdult: {
+    bleedStandResist: 50,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 700,
     health: 500,
     damage: 20,
     bleed: 0,
   },
   midAdult: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(400,700),
     health: findMidValues(175,500),
     damage: findMidValues(10,20),
     bleed: findMidValues(0,0),
   },
   freshAdult: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 400,
     health: 175,
     damage: 10,
     bleed: 0,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 40,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 400,
     health: 50,
     damage: 10,
     bleed: 0,
   },
   midJuvie: {
+    bleedStandResist: 40,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: findMidValues(100,400),
     health: findMidValues(7,50),
     damage: findMidValues(5,10),
     bleed: findMidValues(0,0),
   },
   freshJuvie: {
+    bleedStandResist: 40,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 100,
     health: 7,
     damage: 5,
     bleed: 0,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -580,61 +926,100 @@ dryosaurus: {
 },
 gallimimus: {
   fullAdult: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 1000,
     health: 800,
     damage: 150,
     bleed: 0,
   },
   midAdult: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(720,1000),
     health: findMidValues(260,800),
     damage: findMidValues(20,150),
     bleed: findMidValues(0,0),
   },
   freshAdult: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 720,
     health: 260,
     damage: 20,
     bleed: 0,
-  },/*
+  },
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 700,
     health: 148,
     damage: 18,
     bleed: 0,
   },
   midJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(80,700),
     health: findMidValues(260,148),
     damage: findMidValues(9,18),
     bleed: findMidValues(0,0),
   },
   freshJuvie: {
+    bleedStandResist: 70,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 80,
     health: 260,
     damage: 9,
     bleed: 0,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -643,62 +1028,100 @@ gallimimus: {
 },
 pachycephalosaurus: {
   fullAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 1300,
     health: 1300,
     damage: 350,
     bleed: 0,
   },
   midAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(980,1300),
     health: findMidValues(1040,1300),
     damage: findMidValues(110,350),
     bleed: findMidValues(0,0),
   },
   freshAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 980,
     health: 1040,
     damage: 110,
     bleed: 0,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 750,
     health: 450,
     damage: 120,
     bleed: 0,
   },
   midJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(350,750),
     health: findMidValues(175,450),
     damage: findMidValues(40,120),
     bleed: findMidValues(0,0),
   },
   freshJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 350,
     health: 175,
     damage: 40,
     bleed: 0,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -707,62 +1130,100 @@ pachycephalosaurus: {
 },
 diabloceratops: {
   fullAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 3250,
     health: 3250,
     damage: 350,
     bleed: 25,
   },
   midAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(1650,3250),
     health: findMidValues(1700,3250),
     damage: findMidValues(175,350),
     bleed: findMidValues(25,25),
   },
   freshAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 1650,
     health: 1700,
     damage: 175,
     bleed: 25,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 1850,
     health: 950,
     damage: 115,
     bleed: 25,
   },
   midJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: findMidValues(400,1850),
     health: findMidValues(350,950),
     damage: findMidValues(60,115),
     bleed: findMidValues(25,25),
   },
   freshJuvie: {
+    bleedStandResist: 30,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 400,
     health: 350,
     damage: 60,
     bleed: 25,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -771,62 +1232,100 @@ diabloceratops: {
 },
 maiasaura: {
   fullAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 20,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 2868,
     health: 2868,
     damage: 175,
     bleed: 0,
   },
   midAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 20,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: findMidValues(960,2868),
     health: findMidValues(1000,2868),
     damage: findMidValues(100,175),
     bleed: findMidValues(0,0),
   },
   freshAdult: {
+    bleedStandResist: 25,
+    bleedSitResist: 20,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 960,
     health: 1000,
     damage: 100,
     bleed: 0,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 950,
     health: 748,
     damage: 60,
     bleed: 0,
   },
   midJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: findMidValues(300,950),
     health: findMidValues(50,748),
     damage: findMidValues(30,60),
     bleed: findMidValues(0,0),
   },
   freshJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 300,
     health: 50,
     damage: 30,
     bleed: 0,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -835,6 +1334,10 @@ maiasaura: {
 },
 parasaurolophus: {
   fullAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 20,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: 3600,
     health: 3600,
     damage: 250,
@@ -843,6 +1346,10 @@ parasaurolophus: {
     specialBleed: 0,
   },
   midAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 20,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: findMidValues(2000,3600),
     health: findMidValues(2000,3600),
     damage: findMidValues(115,250),
@@ -851,6 +1358,10 @@ parasaurolophus: {
     specialBleed: findMidValues(0,0),
   },
   freshAdult: {
+    bleedStandResist: 30,
+    bleedSitResist: 20,
+    bleedWalkResist: 50,
+    bleedRunResist: 80,
     weight: 2000,
     health: 2000,
     damage: 115,
@@ -858,45 +1369,71 @@ parasaurolophus: {
     special: 1100,
     specialBleed: 0,
   },
-  /*
   fullSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
   midSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: findMidValues(0,0),
     health: findMidValues(0,0),
     damage: findMidValues(0,0),
     bleed: findMidValues(0,0),
   },
   freshSub: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
     bleed: 0,
   },
-  */
   fullJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 1800,
     health: 1750,
     damage: 80,
     bleed: 0,
   },
   midJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: findMidValues(350,1800),
     health: findMidValues(50,1750),
     damage: findMidValues(40,80),
     bleed: findMidValues(0,0),
   },
   freshJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 350,
     health: 50,
     damage: 40,
     bleed: 0,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -905,6 +1442,10 @@ parasaurolophus: {
 },
 triceratops: {
   fullAdult: {
+    bleedStandResist: 40,
+    bleedSitResist: 20,
+    bleedWalkResist: 90,
+    bleedRunResist: 180,
     weight: 8300,
     health: 8200,
     damage: 360,
@@ -913,6 +1454,10 @@ triceratops: {
     specialBleed: 30,
   },
   midAdult: {
+    bleedStandResist: 40,
+    bleedSitResist: 20,
+    bleedWalkResist: 90,
+    bleedRunResist: 180,
     weight: findMidValues(4150,8300),
     health: findMidValues(4000,8200),
     damage: findMidValues(160,360),
@@ -921,6 +1466,10 @@ triceratops: {
     specialBleed: findMidValues(30,30),
   },
   freshAdult: {
+    bleedStandResist: 40,
+    bleedSitResist: 20,
+    bleedWalkResist: 90,
+    bleedRunResist: 180,
     weight: 4150,
     health: 4000,
     damage: 160,
@@ -929,42 +1478,70 @@ triceratops: {
     specialBleed: 30,
   },
   fullSub: {
+    bleedStandResist: 50,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: 4100,
     health: 3570,
     damage: 200,
     bleed: 20,
   },
   midSub: {
+    bleedStandResist: 50,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: findMidValues(2000,4100),
     health: findMidValues(1250,3570),
     damage: findMidValues(120,200),
     bleed: findMidValues(20,20),
   },
   freshSub: {
+    bleedStandResist: 50,
+    bleedSitResist: 10,
+    bleedWalkResist: 50,
+    bleedRunResist: 100,
     weight: 2000,
     health: 1250,
     damage: 120,
     bleed: 20,
   },
   fullJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 1850,
     health: 760,
     damage: 120,
     bleed: 20,
   },
   midJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: findMidValues(420,1850),
     health: findMidValues(400,760),
     damage: findMidValues(60,120),
     bleed: findMidValues(20,20),
   },
   freshJuvie: {
+    bleedStandResist: 50,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 100,
     weight: 420,
     health: 400,
     damage: 60,
     bleed: 20,
   },
   custom: {
+    bleedStandResist: 0,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
@@ -1505,38 +2082,43 @@ function calculateF() {
   redefineCustom2()
 
   let actualDamage1 = 0
-  let actualBleed1 = 0
+  let actualStandBleed1 = 0
   let numOfBites1 = 0
   let actualDamage2 = 0
-  let actualBleed2 = 0
+  let actualStandBleed2 = 0
   let numOfBites2 = 0
 
   function damageCalc1() {
     a = dinos[dino1][growth1].damage
     b = dinos[dino1][growth1].weight
     c = dinos[dino2][growth2].weight
-    actualDamage1 = Math.floor(a * (b / c))
+    actualDamage1 = Math.round(a * (b / c))
   }
 
   function specialCalc1() {
     a = dinos[dino1][growth1].special
     b = dinos[dino1][growth1].weight
     c = dinos[dino2][growth2].weight
-    actualSpecialDamage1 = Math.floor(a * (b / c))
+    actualSpecialDamage1 = Math.round(a * (b / c))
   }
-
   function bleedCalc1() {
     a = dinos[dino1][growth1].bleed
     b = dinos[dino1][growth1].weight
     c = dinos[dino2][growth2].weight
-    actualBleed1 = Math.floor(a * (b / c))
+    actualStandBleed1 = ((dinos[dino2][growth2].bleedStandResist/100)*(a * (b / c))).toFixed(1)
+    actualSitBleed1 = ((dinos[dino2][growth2].bleedSitResist/100)*(a * (b / c))).toFixed(1)
+    actualWalkBleed1 = ((dinos[dino2][growth2].bleedWalkResist/100)*(a * (b / c))).toFixed(1)
+    actualRunBleed1 = ((dinos[dino2][growth2].bleedWalkResist/100)*(a * (b / c))).toFixed(1)
   }
 
   function specialBleedCalc1() {
     a = dinos[dino1][growth1].specialBleed
     b = dinos[dino1][growth1].weight
     c = dinos[dino2][growth2].weight
-    actualspecialBleed1 = Math.floor(a * (b / c))
+    actualSpecialStandBleed1 = ((dinos[dino2][growth2].bleedStandResist/100)*(a * (b / c))).toFixed(1)
+    actualSpecialSitBleed1 = ((dinos[dino2][growth2].bleedSitResist/100)*(a * (b / c))).toFixed(1)
+    actualSpecialWalkBleed1 = ((dinos[dino2][growth2].bleedWalkResist/100)*(a * (b / c))).toFixed(1)
+    actualSpecialRunBleed1 = ((dinos[dino2][growth2].bleedRunResist/100)*(a * (b / c))).toFixed(1)
   }
 
   function bitesCalc1() {
@@ -1547,28 +2129,33 @@ function calculateF() {
     a = dinos[dino2][growth2].damage
     b = dinos[dino2][growth2].weight
     c = dinos[dino1][growth1].weight
-    actualDamage2 = Math.floor(a * (b / c))
+    actualDamage2 = Math.round(a * (b / c))
   }
 
   function specialCalc2() {
     a = dinos[dino2][growth2].special
     b = dinos[dino2][growth2].weight
     c = dinos[dino1][growth1].weight
-    actualSpecialDamage2 = Math.floor(a * (b / c))
+    actualSpecialDamage2 = Math.round(a * (b / c))
   }
-
   function bleedCalc2() {
     a = dinos[dino2][growth2].bleed
     b = dinos[dino2][growth2].weight
     c = dinos[dino1][growth1].weight
-    actualBleed2 = Math.floor(a * (b / c))
+    actualStandBleed2 = ((dinos[dino1][growth1].bleedStandResist/100)*(a * (b / c))).toFixed(1)
+    actualSitBleed2 = ((dinos[dino1][growth1].bleedSitResist/100)*(a * (b / c))).toFixed(1)
+    actualWalkBleed2 = ((dinos[dino1][growth1].bleedWalkResist/100)*(a * (b / c))).toFixed(1)
+    actualRunBleed2 = ((dinos[dino1][growth1].bleedWalkResist/100)*(a * (b / c))).toFixed(1)
   }
 
   function specialBleedCalc2() {
     a = dinos[dino2][growth2].specialBleed
     b = dinos[dino2][growth2].weight
     c = dinos[dino1][growth1].weight
-    actualspecialBleed2 = Math.floor(a * (b / c))
+    actualSpecialStandBleed2 = ((dinos[dino1][growth1].bleedStandResist/100)*(a * (b / c))).toFixed(1)
+    actualSpecialSitBleed2 = ((dinos[dino1][growth1].bleedSitResist/100)*(a * (b / c))).toFixed(1)
+    actualSpecialWalkBleed2 = ((dinos[dino1][growth1].bleedWalkResist/100)*(a * (b / c))).toFixed(1)
+    actualSpecialRunBleed2 = ((dinos[dino1][growth1].bleedRunResist/100)*(a * (b / c))).toFixed(1)
   }
 
   function bitesCalc2() {
@@ -1587,21 +2174,21 @@ function calculateF() {
   specialCalc2()
   bitesCalc2()
 
-  document.getElementById("linha1").innerHTML = dino1Text + " " + growthText1 + " VS " + dino2Text + " " + growthText2 + ":"
-  document.getElementById("linha2").innerHTML = dino1Text + " " + growthText1 + " does " + actualDamage1 + " damage to " + dino2Text + " " + growthText2 + " each bite."
-  document.getElementById("linha3").innerHTML = dino1Text + " " + growthText1 + " does " + actualBleed1 + " Bleed damage to " + dino2Text + " " + growthText2 + " each bite."
-  document.getElementById("linha4").innerHTML = dino1Text + " " + growthText1 + " needs " + numOfBites1 + " bite(s) to kill a " + dino2Text + " " + growthText2 + " not counting bleed."
-  document.getElementById("linha5").innerHTML = dino2Text + " " + growthText2 + " VS " + dino1Text + " " + growthText1 + ":"
-  document.getElementById("linha6").innerHTML = dino2Text + " " + growthText2 + " does " + actualDamage2 + " damage to " + dino1Text + " " + growthText1 + " each bite."
-  document.getElementById("linha7").innerHTML = dino2Text + " " + growthText2 + " does " + actualBleed2 + " Bleed damage to " + dino1Text + " " + growthText1 + " each bite."
-  document.getElementById("linha8").innerHTML = dino2Text + " " + growthText2 + " needs " + numOfBites2 + " bite(s) to kill a " + dino1Text + " " + growthText1 + " not counting bleed."
+  document.getElementById("vsLine1").innerHTML = dino1Text + " " + growthText1 + " VS " + dino2Text + " " + growthText2 + ":"
+  document.getElementById("dmgLine1").innerHTML = dino1Text + " " + growthText1 + " does " + actualDamage1 + " damage to " + dino2Text + " " + growthText2 + " each bite."
+  document.getElementById("bleedLine1").innerHTML = dino1Text + " " + growthText1 + " does " + actualStandBleed1 + " Bleed damage to " + dino2Text + " " + growthText2 + " each bite. ("+actualSitBleed1 +" Sitting, "+actualStandBleed1+" Standing, "+actualWalkBleed1+" walking)"
+  document.getElementById("bitesLine1").innerHTML = dino1Text + " " + growthText1 + " needs " + numOfBites1 + " bite(s) to kill a " + dino2Text + " " + growthText2 + " not counting bleed."
+  document.getElementById("vsLine2").innerHTML = dino2Text + " " + growthText2 + " VS " + dino1Text + " " + growthText1 + ":"
+  document.getElementById("dmgLine2").innerHTML = dino2Text + " " + growthText2 + " does " + actualDamage2 + " damage to " + dino1Text + " " + growthText1 + " each bite."
+  document.getElementById("bleedLine2").innerHTML = dino2Text + " " + growthText2 + " does " + actualStandBleed2 + " Bleed damage to " + dino1Text + " " + growthText1 + " each bite. ("+actualSitBleed2 +" Sitting, "+actualStandBleed2+" Standing, "+actualWalkBleed2+" walking)"
+  document.getElementById("bitesLine2").innerHTML = dino2Text + " " + growthText2 + " needs " + numOfBites2 + " bite(s) to kill a " + dino1Text + " " + growthText1 + " not counting bleed."
   if ((dinos[dino1][growth1].special > 0) && (growth1 == "fullAdult" || growth1 == "midAdult" || growth1 == "freshAdult")) {
-    document.getElementById("special1").innerHTML = dino1Text + " " + growthText1 + " can also inflict " + actualSpecialDamage1 + " damage and " + actualspecialBleed1 + " bleed damage to " + dino2Text + " " + growthText2 + " using its special attack."
+    document.getElementById("special1").innerHTML = dino1Text + " " + growthText1 + " can also inflict " + actualSpecialDamage1 + " damage and " + actualSpecialStandBleed1 + " bleed damage to " + dino2Text + " " + growthText2 + " using its special attack. ("+actualSpecialSitBleed1 +" Sitting, "+actualSpecialStandBleed1+" Standing, "+actualSpecialWalkBleed1+" walking)"
   } else {
     document.getElementById("special1").innerHTML = ""
   }
   if ((dinos[dino2][growth2].special > 0) && (growth2 == "fullAdult" || growth2 == "midAdult" || growth2 == "freshAdult")) {
-    document.getElementById("special2").innerHTML = dino2Text + " " + growthText2 + " can also inflict " + actualSpecialDamage2 + " damage and " + actualspecialBleed2 + " bleed damage to " + dino1Text + " " + growthText1 + " using its special attack."
+    document.getElementById("special2").innerHTML = dino2Text + " " + growthText2 + " can also inflict " + actualSpecialDamage2 + " damage and " + actualSpecialStandBleed2 + " bleed damage to " + dino1Text + " " + growthText1 + " using its special attack. ("+actualSpecialSitBleed2 +" Sitting, "+actualSpecialStandBleed2+" Standing, "+actualSpecialWalkBleed2+" walking)"
   } else {
     document.getElementById("special2").innerHTML = ""
   }
