@@ -1909,6 +1909,10 @@ function triceratops2F() {
 }
 
 function updateCustomValues1() {
+  dinos[dino1]["custom"].bleedStandResist = dinos[dino1][growth1].bleedStandResist
+  dinos[dino1]["custom"].bleedSitResist = dinos[dino1][growth1].bleedSitResist
+  dinos[dino1]["custom"].bleedWalkResist = dinos[dino1][growth1].bleedWalkResist
+  dinos[dino1]["custom"].bleedRunResist = dinos[dino1][growth1].bleedRunResist
   document.getElementById("customWeight1").value = dinos[dino1][growth1].weight
   document.getElementById("customHealth1").value = dinos[dino1][growth1].health
   document.getElementById("customDamage1").value = dinos[dino1][growth1].damage
@@ -1989,6 +1993,10 @@ function custom1F() {
 }
 
 function updateCustomValues2() {
+  dinos[dino2]["custom"].bleedStandResist = dinos[dino2][growth2].bleedStandResist
+  dinos[dino2]["custom"].bleedSitResist = dinos[dino2][growth2].bleedSitResist
+  dinos[dino2]["custom"].bleedWalkResist = dinos[dino2][growth2].bleedWalkResist
+  dinos[dino2]["custom"].bleedRunResist = dinos[dino2][growth2].bleedRunResist
   document.getElementById("customWeight2").value = dinos[dino2][growth2].weight
   document.getElementById("customHealth2").value = dinos[dino2][growth2].health
   document.getElementById("customDamage2").value = dinos[dino2][growth2].damage
