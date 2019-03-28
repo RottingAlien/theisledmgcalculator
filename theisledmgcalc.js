@@ -605,7 +605,7 @@ suchomimus: {
     bleed: 5,
   },
   custom: {
-    bleedStandResist: 80,
+    bleedStandResist: 0,
     bleedSitResist: 0,
     bleedWalkResist: 0,
     bleedRunResist: 0,
@@ -825,9 +825,9 @@ tyrannosaurus: {
 dryosaurus: {
   fullAdult: {
     bleedStandResist: 50,
-    bleedSitResist: 0,
-    bleedWalkResist: 0,
-    bleedRunResist: 0,
+    bleedSitResist: 25,
+    bleedWalkResist: 100,
+    bleedRunResist: 200,
     weight: 700,
     health: 500,
     damage: 20,
@@ -855,9 +855,9 @@ dryosaurus: {
   },
   fullSub: {
     bleedStandResist: 0,
-    bleedSitResist: 25,
-    bleedWalkResist: 100,
-    bleedRunResist: 200,
+    bleedSitResist: 0,
+    bleedWalkResist: 0,
+    bleedRunResist: 0,
     weight: 0,
     health: 0,
     damage: 0,
