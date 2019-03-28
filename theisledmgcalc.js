@@ -2181,7 +2181,30 @@ function calculateF() {
   damageCalc2()
   specialCalc2()
   bitesCalc2()
-
+/*
+  document.getElementById("dino1web").innerHTML = dino1Text
+  document.getElementById("growth1web").innerHTML = growthText1
+  document.getElementById("dino2web").innerHTML = dino1Text
+  document.getElementById("growth2web").innerHTML = growthText1
+  document.getElementById("numOfBites1web").innerHTML = numOfBites1
+  document.getElementById("numOfBites2web").innerHTML = numOfBites2
+  document.getElementById("actualDamage1web").innerHTML = actualDamage1
+  document.getElementById("actualDamage2web").innerHTML = actualDamage2
+  document.getElementById("actualSitBleed1web").innerHTML = actualSitBleed1
+  document.getElementById("actualSitBleed2web").innerHTML = actualSitBleed2
+  document.getElementById("actualStandBleed1web").innerHTML = actualStandBleed1
+  document.getElementById("actualStandBleed2web").innerHTML = actualStandBleed2
+  document.getElementById("actualWalkBleed1web").innerHTML = actualWalkBleed1
+  document.getElementById("actualWalkBleed2web").innerHTML = actualWalkBleed2
+  document.getElementById("actualSpecialDamage1web").innerHTML = actualSpecialDamage1
+  document.getElementById("actualSpecialDamage2web").innerHTML = actualSpecialDamage2
+  document.getElementById("actualSpecialSitBleed1web").innerHTML = actualSpecialSitBleed1
+  document.getElementById("actualSpecialSitBleed2web").innerHTML = actualSpecialSitBleed2
+  document.getElementById("actualSpecialStandBleed1web").innerHTML = actualSpecialStandBleed1
+  document.getElementById("actualSpecialStandBleed2web").innerHTML = actualSpecialStandBleed2
+  document.getElementById("actualSpecialWalkBleed1web").innerHTML = actualSpecialWalkBleed1
+  document.getElementById("actualSpecialWalkBleed2web").innerHTML = actualSpecialWalkBleed2
+*/
   document.getElementById("vsLine1").innerHTML = dino1Text + " " + growthText1 + " VS " + dino2Text + " " + growthText2 + ":"
   document.getElementById("dmgLine1").innerHTML = dino1Text + " " + growthText1 + " does " + actualDamage1 + " damage to " + dino2Text + " " + growthText2 + " each bite."
   document.getElementById("bleedLine1").innerHTML = dino1Text + " " + growthText1 + " does " + actualStandBleed1 + " Bleed damage to " + dino2Text + " " + growthText2 + " each bite. ("+actualSitBleed1 +" Sitting, "+actualStandBleed1+" Standing, "+actualWalkBleed1+" walking)"
@@ -2202,3 +2225,7 @@ function calculateF() {
   }
 }
 }
+
+
+  
+
