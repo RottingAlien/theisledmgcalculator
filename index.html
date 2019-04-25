@@ -2,17 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src=theisledmgcalc.js></script>
+  <script src=js/theisledmgcalc.js></script>
   
   
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 
-  <style type="text/css">
-   html, body {width: 100%; height: 100%; margin: 0px, padding: 0px;}
-
-button{display: block;}
-   /* Isto é a class que diz à "div" que contem as cenas para o dino1 e dino2 para ocupar 50% do ecrã*/
-   .dino-select-container {width: 200px; position: relative; float: left;}
- </style>
 
 </head>
 
@@ -22,131 +16,206 @@ button{display: block;}
 
 
   <!-- AQUI ABRE A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
-  <div class="dino-select-container">
-    First Dino: <br>
-    Carnivores: <br>
-    <button id="carnotaurusBtn1">Carnotaurus</button>
-    <button id="dilophosaurusBtn1">Dilophosaurus</button>
-    <button id="utahraptorBtn1">Utahraptor</button>
-    <button id="allosaurusBtn1">Allosaurus</button>
-    <button id="ceratosaurusBtn1">Ceratosaurus</button>
-    <button id="suchomimusBtn1">Suchomimus</button>
-    <button id="giganotosaurusBtn1">Giganotosaurus</button>
-    <button id="tyrannosaurusBtn1">Tyrannosaurus</button>
-    <br>
-    Herbivores: <br>
-    <button id="dryosaurusBtn1">Dryosaurus</button>
-    <button id="gallimimusBtn1">Gallimimus</button>
-    <button id="pachycephalosaurusBtn1">Pachycephalosaurus</button>
-    <button id="diabloceratopsBtn1">Diabloceratops</button>
-    <button id="maiasauraBtn1">Maiasaura</button>
-    <button id="parasaurolophusBtn1">Parasaurolophus</button>
-    <button id="triceratopsBtn1">Triceratops</button>
-    <br>
-    First Dino Growth: <br>
-    <button id="freshJuvieBtn1">Fresh Juvenile</button>
-    <button id="midJuvieBtn1">Mid Juvenile</button>
-    <button id="fullJuvieBtn1">Full Juvenile</button>
-    <button id="freshSubBtn1">Fresh Sub-Adult</button>
-    <button id="midSubBtn1">Mid Sub-Adult</button>
-    <button id="fullSubBtn1">Full Sub-Adult</button>
-    <button id="freshAdultBtn1">Fresh Adult</button>
-    <button id="midAdultBtn1">Mid Adult</button>
-    <button id="fullAdultBtn1">Full Adult</button>
-    <br>
-    Customize: <br>
-    Weight: <br>
-    <input id="customWeight1" type="text" placeholder="Weight"><br>
-    Health: <br>
-    <input id="customHealth1" type="text" placeholder="Health"><br>
-    Bite Force: <br>
-    <input id="customDamage1" type="text" placeholder="Bite Force"><br>
-    Bleed: <br>
-    <input id="customBleed1" type="text" placeholder="Bleed"><br>
-    <button id="customBtn1">Use These Values</button><br>
-    <br>
-    <br>
+  <div class="dino-c">
+    <h2>First Dino:</h2>
+    <h3>Carnivores:</h3>
+    <input type="radio" name="FirstDino" id="carnotaurusCheck1">
+    <label id="carnotaurusBtn1" for="carnotaurusCheck1">Carnotaurus</label>
+    <input type="radio" name="FirstDino" id="dilophosaurusCheck1">
+    <label id="dilophosaurusBtn1" for="dilophosaurusCheck1">Dilophosaurus</label>
+    <input type="radio" name="FirstDino" id="utahraptorCheck1">
+    <label id="utahraptorBtn1" for="utahraptorCheck1">Utahraptor</label>
+    <input type="radio" name="FirstDino" id="allosaurusCheck1">
+    <label id="allosaurusBtn1" for="allosaurusCheck1">Allosaurus</label>
+    <input type="radio" name="FirstDino" id="ceratosaurusCheck1">
+    <label id="ceratosaurusBtn1" for="ceratosaurusCheck1">Ceratosaurus</label>
+    <input type="radio" name="FirstDino" id="suchomimusCheck1">
+    <label id="suchomimusBtn1" for="suchomimusCheck1">Suchomimus</label>
+    <input type="radio" name="FirstDino" id="giganotosaurusCheck1">
+    <label id="giganotosaurusBtn1" for="giganotosaurusCheck1">Giganotosaurus</label>
+    <input type="radio" name="FirstDino" id="tyrannosaurusCheck1">
+    <label id="tyrannosaurusBtn1" for="tyrannosaurusBtn1">Tyrannosaurus</label>
 
+    <h3>Herbivores:</h3>
+    <input type="radio" name="FirstDino" id="dryosaurusCheck1">
+    <label id="dryosaurusBtn1" for="dryosaurusCheck1">Dryosaurus</label>
+    <input type="radio" name="FirstDino" id="gallimimusCheck1">
+    <label id="gallimimusBtn1" for="gallimimusCheck1">Gallimimus</label>
+    <input type="radio" name="FirstDino" id="pachycephalosaurusCheck1">
+    <label id="pachycephalosaurusBtn1" for="pachycephalosaurusCheck1">Pachycephalosaurus</label>
+    <input type="radio" name="FirstDino" id="diabloceratopsCheck1">
+    <label id="diabloceratopsBtn1" for="diabloceratopsCheck1">Diabloceratops</label>
+    <input type="radio" name="FirstDino" id="maiasauraCheck1">
+    <label id="maiasauraBtn1" for="maiasauraCheck1">Maiasaura</label>
+    <input type="radio" name="FirstDino" id="parasaurolophusCheck1">
+    <label id="parasaurolophusBtn1" for="parasaurolophusCheck1">Parasaurolophus</label>
+    <input type="radio" name="FirstDino" id="triceratopsCheck1">
+    <label id="triceratopsBtn1" for="triceratopsBtn1">Triceratops</label>
+
+    <h3>First Dino Growth:</h3>
+    <input type="radio" name="FirstDinoGrowth" id="freshJuvieCheck1">
+    <label id="freshJuvieBtn1" for="freshJuvieCheck1">Fresh Juvenile</label>
+    <input type="radio" name="FirstDinoGrowth" id="midJuvieCheck1">
+    <label id="midJuvieBtn1" for="midJuvieCheck1">Mid Juvenile</label>
+    <input type="radio" name="FirstDinoGrowth" id="fullJuvieCheck1">
+    <label id="fullJuvieBtn1" for="fullJuvieCheck1">Full Juvenile</label>
+    <input type="radio" name="FirstDinoGrowth" id="freshSubCheck1">
+    <label id="freshSubBtn1" for="freshSubCheck1">Fresh Sub-Adult</label>
+    <input type="radio" name="FirstDinoGrowth" id="midSubCheck1">
+    <label id="midSubBtn1" for="midSubCheck1">Mid Sub-Adult</label>
+    <input type="radio" name="FirstDinoGrowth" id="fullSubCheck1">
+    <label id="fullSubBtn1" for="fullSubCheck1">Full Sub-Adult</label>
+    <input type="radio" name="FirstDinoGrowth" id="freshAdultCheck1">
+    <label id="freshAdultBtn1" for="freshAdultCheck1">Fresh Adult</label>
+    <input type="radio" name="FirstDinoGrowth" id="midAdultCheck1">
+    <label id="midAdultBtn1" for="midAdultCheck1">Mid Adult</label>
+    <input type="radio" name="FirstDinoGrowth" id="fullAdultCheck1">
+    <label id="fullAdultBtn1" for="fullAdultCheck1">Full Adult</label>
+
+    <h4>Customize:</h4>
+
+    <div class="input-c">
+        <input id="customWeight1" type="text" placeholder="&ensp;">
+        <span>Weight</span>
+    </div>
+    <div class="input-c">
+        <input id="customHealth1" type="text" placeholder="&ensp;">
+        <span>Health</span>
+    </div>
+    <div class="input-c">
+        <input id="customDamage1" type="text" placeholder="&ensp;">
+        <span>Bite Force</span>
+    </div>
+    <div class="input-c">
+        <input id="customBleed1" type="text" placeholder="&ensp;">
+        <span>Bleed</span>
+    </div>
+
+    <div class="hs-20"></div>
+    <button id="customBtn1" class="go-c">Use These Values</button>
     <!-- AQUI FECHA A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
   </div>
 
   <!-- AQUI ABRE A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
-  <div class="dino-select-container">
-    Second Dino: <br>
-    Carnivores: <br>
-    <button id="carnotaurusBtn2">Carnotaurus</button>
-    <button id="dilophosaurusBtn2">Dilophosaurus</button>
-    <button id="utahraptorBtn2">Utahraptor</button>
-    <button id="allosaurusBtn2">Allosaurus</button>
-    <button id="ceratosaurusBtn2">Ceratosaurus</button>
-    <button id="suchomimusBtn2">Suchomimus</button>
-    <button id="giganotosaurusBtn2">Giganotosaurus</button>
-    <button id="tyrannosaurusBtn2">Tyrannosaurus</button>
-    <br>
-    Herbivores: <br>
-    <button id="dryosaurusBtn2">Dryosaurus</button>
-    <button id="gallimimusBtn2">Gallimimus</button>
-    <button id="pachycephalosaurusBtn2">Pachycephalosaurus</button>
-    <button id="diabloceratopsBtn2">Diabloceratops</button>
-    <button id="maiasauraBtn2">Maiasaura</button>
-    <button id="parasaurolophusBtn2">Parasaurolophus</button>
-    <button id="triceratopsBtn2">Triceratops</button>
-    <br>
-    Second Dino Growth: <br>
-    <button id="freshJuvieBtn2">Fresh Juvenile</button>
-    <button id="midJuvieBtn2">Mid Juvenile</button>
-    <button id="fullJuvieBtn2">Full Juvenile</button>
-    <button id="freshSubBtn2">Fresh Sub-Adult</button>
-    <button id="midSubBtn2">Mid Sub-Adult</button>
-    <button id="fullSubBtn2">Full Sub-Adult</button>
-    <button id="freshAdultBtn2">Fresh Adult</button>
-    <button id="midAdultBtn2">Mid Adult</button>
-    <button id="fullAdultBtn2">Full Adult</button>
-    <br>
-    Customize: <br>
+  <div class="dino-c">
+    <h2>Second Dino:</h2>
+    <h3>Carnivores:</h3>
+    <input type="radio" name="SecondDino" id="carnotaurusCheck2">
+    <label id="carnotaurusBtn2" for="carnotaurusCheck2">Carnotaurus</label>
+    <input type="radio" name="SecondDino" id="dilophosaurusCheck2">
+    <label id="dilophosaurusBtn2" for="dilophosaurusCheck2">Dilophosaurus</label>
+    <input type="radio" name="SecondDino" id="utahraptorCheck2">
+    <label id="utahraptorBtn2" for="utahraptorCheck2">Utahraptor</label>
+    <input type="radio" name="SecondDino" id="allosaurusCheck2">
+    <label id="allosaurusBtn2" for="allosaurusCheck2">Allosaurus</label>
+    <input type="radio" name="SecondDino" id="ceratosaurusCheck2">
+    <label id="ceratosaurusBtn2" for="ceratosaurusCheck2">Ceratosaurus</label>
+    <input type="radio" name="SecondDino" id="suchomimusCheck2">
+    <label id="suchomimusBtn2" for="suchomimusCheck2">Suchomimus</label>
+    <input type="radio" name="SecondDino" id="giganotosaurusCheck2">
+    <label id="giganotosaurusBtn2" for="giganotosaurusCheck2">Giganotosaurus</label>
+    <input type="radio" name="SecondDino" id="tyrannosaurusCheck2">
+    <label id="tyrannosaurusBtn2" for="tyrannosaurusBtn2">Tyrannosaurus</label>
 
-    Weight: <br>
-    <input id="customWeight2" type="text" placeholder="Weight"><br>
-    Health: <br>
-    <input id="customHealth2" type="text" placeholder="Health"><br>
-    Bite Force: <br>
-    <input id="customDamage2" type="text" placeholder="Bite Force"><br>
-    Bleed: <br>
-    <input id="customBleed2" type="text" placeholder="Bleed"><br>
-    <button id="customBtn2">Use These Values</button>
+    <h3>Herbivores:</h3>
+    <input type="radio" name="SecondDino" id="dryosaurusCheck2">
+    <label id="dryosaurusBtn2" for="dryosaurusCheck2">Dryosaurus</label>
+    <input type="radio" name="SecondDino" id="gallimimusCheck2">
+    <label id="gallimimusBtn2" for="gallimimusCheck2">Gallimimus</label>
+    <input type="radio" name="SecondDino" id="pachycephalosaurusCheck2">
+    <label id="pachycephalosaurusBtn2" for="pachycephalosaurusCheck2">Pachycephalosaurus</label>
+    <input type="radio" name="SecondDino" id="diabloceratopsCheck2">
+    <label id="diabloceratopsBtn2" for="diabloceratopsCheck2">Diabloceratops</label>
+    <input type="radio" name="SecondDino" id="maiasauraCheck2">
+    <label id="maiasauraBtn2" for="maiasauraCheck2">Maiasaura</label>
+    <input type="radio" name="SecondDino" id="parasaurolophusCheck2">
+    <label id="parasaurolophusBtn2" for="parasaurolophusCheck2">Parasaurolophus</label>
+    <input type="radio" name="SecondDino" id="triceratopsCheck2">
+    <label id="triceratopsBtn2" for="triceratopsBtn2">Triceratops</label>
+
+    <h3>First Dino Growth:</h3>
+    <input type="radio" name="SecondDinoGrowth" id="freshJuvieCheck2">
+    <label id="freshJuvieBtn2" for="freshJuvieCheck2">Fresh Juvenile</label>
+    <input type="radio" name="SecondDinoGrowth" id="midJuvieCheck2">
+    <label id="midJuvieBtn2" for="midJuvieCheck2">Mid Juvenile</label>
+    <input type="radio" name="SecondDinoGrowth" id="fullJuvieCheck2">
+    <label id="fullJuvieBtn2" for="fullJuvieCheck2">Full Juvenile</label>
+    <input type="radio" name="SecondDinoGrowth" id="freshSubCheck2">
+    <label id="freshSubBtn2" for="freshSubCheck2">Fresh Sub-Adult</label>
+    <input type="radio" name="SecondDinoGrowth" id="midSubCheck2">
+    <label id="midSubBtn2" for="midSubCheck2">Mid Sub-Adult</label>
+    <input type="radio" name="SecondDinoGrowth" id="fullSubCheck2">
+    <label id="fullSubBtn2" for="fullSubCheck2">Full Sub-Adult</label>
+    <input type="radio" name="SecondDinoGrowth" id="freshAdultCheck2">
+    <label id="freshAdultBtn2" for="freshAdultCheck2">Fresh Adult</label>
+    <input type="radio" name="SecondDinoGrowth" id="midAdultCheck2">
+    <label id="midAdultBtn2" for="midAdultCheck2">Mid Adult</label>
+    <input type="radio" name="SecondDinoGrowth" id="fullAdultCheck2">
+    <label id="fullAdultBtn2" for="fullAdultCheck2">Full Adult</label>
+   
+    <h4>Customize:</h4>
+
+    <div class="input-c">
+        <input id="customWeight2" type="text" placeholder="&ensp;">
+        <span>Weight</span>
+    </div>
+    <div class="input-c">
+        <input id="customHealth2" type="text" placeholder="&ensp;">
+        <span>Health</span>
+    </div>
+    <div class="input-c">
+        <input id="customDamage2" type="text" placeholder="&ensp;">
+        <span>Bite Force</span>
+    </div>
+    <div class="input-c">
+        <input id="customBleed2" type="text" placeholder="&ensp;">
+        <span>Bleed</span>
+    </div>
+
+    <div class="hs-20"></div>
+    <button id="customBtn2" class="go-c">Use These Values</button>
 
     <!-- AQUI FECHA A DIV COM A CLASS PARA ATRIBUIR AS CENAS NO CSS -->
-  </div>
-  <div class="dino-fight-outcome">
-    Chosen Dinos: <br>
-    <br>
-    <span id="dino1web"></span> <span id="growth1web"></span>  VS <span id="dino2web"></span> <span id="growth2web"></span><br>
-    <br>
-    <button id="calculateBtn">Calculate</button><button value="Refresh Page" onClick="window.location.reload(true)">Reset</button><br>
-    <br>
-    <p id="vsLine1"></p>
-    <p id="dmgLine1"></p>
-    <p id="bleedLine1"></p>
-    <p id="bitesLine1"></p>
-    <p id="special1"></p>
-    <br>
-    <p id="vsLine2"></p>
-    <p id="dmgLine2"></p>
-    <p id="bleedLine2"></p>
-    <p id="bitesLine2"></p>
-    <p id="special2"></p>
-    <br>
-    <br>
-    <br>
-    NOTE WHEN USING CUSTOM VALUES:<br>
-    Customizing may not be as accurate as using preset growth states.
-    <br>
-    First use a preset closer to your current growth state, then customize those values.<br>
-    Weight and Bite force can be seen in the character menu in-game.<br>
-    <br>
+    </div>
+<div class="fight-c">
+    <div class="fight-c-h"> 
+        <h3>Chosen Dinos: </h3>
 
-    <br>
-  </div>
+        <div id="dino1web"></div>
+        <div id="dino2web"></div>
+        <div id="growth1web"></div>
+        <div id="growth2web"></div>
+        <div class="vs">VS </div>
+        
+        <div class="hs-20"></div>
+
+        <button id="calculateBtn">Calculate</button>
+        <button value="Refresh Page" onClick="window.location.reload(true)">Reset</button>
+    </div>
+
+    <div class="fight-output-c">
+        <p id="vsLine1"></p>
+        <p id="dmgLine1"></p>
+        <p id="bleedLine1"></p>
+        <p id="bitesLine1"></p>
+        <p id="special1"></p>
+        <br>
+        <p id="vsLine2"></p>
+        <p id="dmgLine2"></p>
+        <p id="bleedLine2"></p>
+        <p id="bitesLine2"></p>
+        <p id="special2"></p>
+
+    </div>
+</div>
+
+  <div class="note">
+        NOTE WHEN USING CUSTOM VALUES:<br />
+        Customizing may not be as accurate as using preset growth states.
+        <br />
+        First use a preset closer to your current growth state, then customize those values.<br/>
+        Weight and Bite force can be seen in the character menu in-game.<br />
+    </div>
 
 
 </body>
